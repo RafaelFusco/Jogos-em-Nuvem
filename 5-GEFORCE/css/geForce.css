@@ -1,0 +1,19 @@
+#geForce {
+	display: none;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(65, 149, 0, 0.165);
+	transition-duration: 1s;
+	opacity: 0;
+	z-index: 2;
+}
+#geForce-slide {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0.2;
+	z-index: -1;
+}

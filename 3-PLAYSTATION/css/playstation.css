@@ -1,0 +1,19 @@
+#playstation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+	width: 0%;
+	height: 100vh;
+	min-width: 0%;
+	background-color: rgba(0, 120, 255, 0.408);
+	transition-duration: 1s;
+	z-index: 2;
+}
+#play-slide {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0.2;
+	z-index: -1;
+}

@@ -1,0 +1,19 @@
+#shadow {
+	display: none;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 18, 214, 0.396);
+	transition-duration: 1s;
+	opacity: 0;
+	z-index: 2;
+}
+#shadow-slide {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0.2;
+	z-index: -1;
+}

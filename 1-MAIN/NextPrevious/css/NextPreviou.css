@@ -1,0 +1,126 @@
+.container3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    transition-duration: 1s;
+}
+.seletores {
+    position: absolute;
+    display: grid;
+    justify-content: end;
+    height: max-content;
+    width: max-content;
+    border-radius: 10px 0 0 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.600), 0 0 10px rgba(0, 0, 0, 0.600);
+    background-color: rgba(255, 255, 255, 0.38);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+    transition-duration: 1s; 
+}
+.button1 {
+    display: flex;
+	height: 36px;
+	width: 36px;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgba(100, 100, 100, 0.200);
+	box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.200), 0 0 5px rgba(0, 0, 0, 0.600);
+	cursor: pointer;
+    transition-duration: 1s;
+}
+.button1 > img {
+    cursor: pointer;
+}
+.active2 {
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.500),  0 0 10px rgba(255, 255, 255, 1);
+    animation: clicado2 1s;
+    transition-duration: 1s;
+}
+@keyframes clicado2 {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.200), inset  0 0 5px rgba(0, 0, 0, 0.600);
+
+    }
+    50% {
+        box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.200),  0 0 5px rgba(0, 0, 0, 0.600);
+
+    }
+    100% {
+        box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.200),  0 0 5px rgba(255, 255, 255, 0.6);
+    }
+}
+
+.site1 {
+    animation: site1 1s;
+}
+@keyframes site1 {
+    0% {
+        box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.500),  0 0 10px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: inset rgb(0, 41, 88),  0 0 10px  rgb(0, 41, 88);
+    }
+    100% {
+        box-shadow: inset 0 0 5px  rgb(0, 41, 88),  0 0 12px  rgb(0, 41, 88);
+    }
+}
+.site2 {
+    animation: site2 1s;
+}
+@keyframes site2 {
+    0% {
+        box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.500),  0 0 10px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: inset rgb(0, 123, 12),  0 0 10px  rgb(0, 123, 12);
+    }
+    100% {
+        box-shadow: inset 0 0 5px  rgb(0, 123, 12),  0 0 12px  rgb(0, 123, 12);
+    }
+}
+.site3 {
+    animation: site3 1s;
+}
+@keyframes site3 {
+    0% {
+        box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.500),  0 0 10px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: inset rgb(86, 136, 0),  0 0 10px rgb(86, 136, 0);
+    }
+    100% {
+        box-shadow: inset 0 0 5px rgb(86, 136, 0),  0 0 12px rgb(86, 132, 0);
+    }
+}
+.site4 {
+    animation: site4 1s;
+}
+@keyframes site4 {
+    0% {
+        box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.500),  0 0 10px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: inset rgb(0, 0, 185),  0 0 10px rgb(0, 0, 185);
+    }
+    100% {
+        box-shadow: inset 0 0 5px  rgb(0, 0, 185),  0 0 12px rgb(0, 0, 185);
+    }
+}
+.site5 {
+    animation: site5 1s;
+}
+@keyframes site5 {
+    0% {
+        box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.500),  0 0 10px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: inset rgb(93, 0, 174),  0 0 10px rgb(93, 0, 174);
+    }
+    100% {
+        box-shadow: inset 0 0 5px rgb(93, 0, 174),  0 0 12px rgb(93, 0, 174);
+    }
+}
