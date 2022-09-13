@@ -2,10 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+	flex-direction: column;
     position: absolute;
-	width: 0%;
+	width: 0vw;
 	height: 100vh;
-	min-width: 0%;
+	min-width: 0vw;
 	background-color: rgba(0, 120, 255, 0.408);
 	transition-duration: 1s;
 	z-index: 2;

@@ -3,60 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
     <link rel="stylesheet" href="main.css">
     <title>JOGOS EM NUVEM</title>
 </head>
 <body>
     <div id="gradient"> 
-        <div class="container"> <!-- CONTEUDO PLAYSTATION ABRE NO MEIO -->
-            <div id="alerta-size">
-                <div id="alerta-size2">
-                    <div id="alerta">
-                        <img src="./1-MAIN/img/alerta.png">
-                        <p>As informações não estão atualizadas.</p>
-
-                        <div id="alerta-fechar">
-                            <button id="fechar">x</button>
-                        </div>
-
-                    </div>
-                    <div id="alerta2">
-                        <p>Ao abrir as informações de uma plataforma, voce pode clicar duas vezes no icone para abrir o site oficial.</p>
-
-                        <div id="alerta-fechar2">
-                            <button id="fechar2">x</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- APRESENTAÇÃO -->
-            <div id="start">
+        <section id="alerta-size">  <!-- ALERTAS -->
+            <div id="alerta-size2">
                 
-                <div id="slide">
-                    <img src="./2-INICIO/img/slide1.png" class="selected">
-                    <img src="./2-INICIO/img/slide2.png">
-                    <img src="./2-INICIO/img/slide3.png">
-                    <img src="./2-INICIO/img/slide4.png">
-                    <img src="./2-INICIO/img/slide5.png">
-                </div>
-                    
-                <div id="start2">
+                <div id="alerta2">
+                    <p>Ao abrir as informações de uma plataforma, voce pode clicar duas vezes no icone para abrir o site oficial.</p>
 
-                    <h1 id="top-inicial">PLATAFORMAS</h1>
-                        <div id="info-start">
-                            <p id="info"> Esta pagina contem algumas informações sobre cinco plataformas de jogos em nuvem.</p>            
-                        </div>
-                    
-                    <div id="bottom-inicial">
-                        <div id="button-start">CONTINUAR</div>
+                    <div id="alerta-fechar2">
+                        <button id="fechar2">x</button>
+                    </div>
+                </div>                    
+                <div id="alerta">
+                    <img src="./1-MAIN/img/alerta.png">
+                    <p>As informações não estão atualizadas.</p>
+
+                    <div id="alerta-fechar">
+                        <button id="fechar">x</button>
                     </div>
 
-                </div>     
-            </div>
+                </div>
 
-            <!-- CONTEUDO PLAYSTATION -->
-            <div id="playstation" >
+            </div>
+        </section>
+        <section id="start">  <!-- APRESENTAÇÃO -->    
+            <div id="slide">
+                <img src="./2-INICIO/img/slide1.png" class="selected">
+                <img src="./2-INICIO/img/slide2.png">
+                <img src="./2-INICIO/img/slide3.png">
+                <img src="./2-INICIO/img/slide4.png">
+                <img src="./2-INICIO/img/slide5.png">
+            </div>
+            <div id="start2">
+                <h1 id="top-inicial">PLATAFORMAS</h1>
+                    <div id="info-start">
+                        <p id="info"> Esta pagina contem algumas informações sobre cinco plataformas de jogos em nuvem.</p>            
+                    </div>
+                <div id="bottom-inicial">
+                    <div id="button-start">CONTINUAR</div>
+                </div>
+            </div>     
+        </section>
+        <main class="container"> <!-- CONTEUDOS -->
+            <section id="playstation" >
 
                 <img src="./3-PLAYSTATION/img/Sem título-1.fw.png" id="play-slide">
   
@@ -94,10 +88,8 @@
                         </div>
                     </div>
                 </div>
-            </div> 
-        
-            <!-- CONTEUDO XBOX -->
-            <div id="xbox">
+            </section> 
+            <section id="xbox">
 
                 <img src="./4-XBOX/img/Sem título-5.fw.png" id="xbox-slide">
 
@@ -133,10 +125,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- CONTEUDO GEFORCE -->
-            <div id="geForce">
+            </section>
+            <section id="geForce">
 
                 <img src="./5-GEFORCE/img/cyberpunk.fw.png" id="geForce-slide">
 
@@ -172,10 +162,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- CONTEUDO SHADOW -->
-            <div id="shadow">
+            </section>
+            <section id="shadow">
 
                 <img src="./6-SHADOW/img/Sem título-8.fw.png" id="shadow-slide">
 
@@ -212,10 +200,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- CONTEUDO AMAZON LUNA -->
-            <div id="luna">
+            </section>
+            <section id="luna">
 
                     <img src="./7-LUNA/img/Sem título-9.fw.png" id="luna-slide">
 
@@ -250,20 +236,19 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="container3">
-                <div class="seletores">
-                    <div class="button1" id="b-play"><img src="3-PLAYSTATION/img/logo-playstation.png"></div>
-                    <div class="button1" id="b-xbox"><img src="4-XBOX/img/logo-xbox.png"></div>
-                    <div class="button1" id="b-geForce"><img src="5-GEFORCE/img/logo-geForce.png"></div>
-                    <div class="button1" id="b-shadow"><img src="6-SHADOW/img/logo-shadow.png"></div>
-                    <div class="button1" id="b-luna"><img src="7-LUNA/img/logo-luna.png"></div>
-                </div>
-            </div>
-        </div>
+            </section>
+        </main>
+        <section class="container3">    <!-- SELETOR DE CONTEUDO -->
+            <ul class="seletores">
+                <li class="button1" id="b-play"><img src="3-PLAYSTATION/img/logo-playstation.png"></li>
+                <li class="button1" id="b-xbox"><img src="4-XBOX/img/logo-xbox.png"></li>
+                <li class="button1" id="b-geForce"><img src="5-GEFORCE/img/logo-geForce.png"></li>
+                <li class="button1" id="b-shadow"><img src="6-SHADOW/img/logo-shadow.png"></li>
+                <li class="button1" id="b-luna"><img src="7-LUNA/img/logo-luna.png"></li>
+            </ul>
+        </section>
     </div>
 </body>
     <script src="1-MAIN/js/main.js"></script>
-    <script src="2-INICIO/js/start.js"></script>
+    <script src="2-INICIO/js/INICIO.js"></script>
 </html>
